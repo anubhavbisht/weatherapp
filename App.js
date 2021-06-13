@@ -7,7 +7,7 @@ import UnitsPicker from "./components/UnitsPicker";
 import { colors } from "./utils/index";
 import ReloadIcon from "./components/ReloadIcon";
 import WeatherDetails from "./components/WeatherDetails";
-const weatherapikey = "c45bd6610bd8ac2dd5952163f3d6e314";
+const weatherapikey = "";//enter your api key
 
 export default function App() {
   const [errormessage, seterror] = useState(null);
